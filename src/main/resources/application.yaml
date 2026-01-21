@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-boot-modular-backend
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/ust_db
+    username: root
+    password: B9/a2/@boo3
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
