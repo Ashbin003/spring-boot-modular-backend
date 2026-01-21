@@ -5,7 +5,6 @@ This project is a modular Spring Boot backend application developed to demonstra
 
 The application follows a layered architecture and is divided into multiple functional modules.
 
----
 
 ## Tech Stack
 - Java
@@ -16,7 +15,6 @@ The application follows a layered architecture and is divided into multiple func
 - Maven
 - Swagger (SpringDoc OpenAPI)
 
----
 
 ## Project Structure
 Each module follows the same layered structure:
@@ -26,7 +24,6 @@ Each module follows the same layered structure:
 - model – Entity classes
 - exceptions – Centralized exception handling
 
----
 
 ## Modules Implemented
 - Book Management
@@ -35,7 +32,6 @@ Each module follows the same layered structure:
 - Property Management
 - Transaction Management
 
----
 
 ## Features
 - RESTful APIs
@@ -44,7 +40,6 @@ Each module follows the same layered structure:
 - JPA + MySQL integration
 - Swagger API documentation
 
----
 
 ## How to Run the Application
 
@@ -53,13 +48,8 @@ mvn clean install
 mvn spring-boot:run
 ```
 
----
-
 ## Swagger UI:
 http://localhost:8080/swagger-ui.html
-
-
----
 
 ## Author
 Ashbin K George
